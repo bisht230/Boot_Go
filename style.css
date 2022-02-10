@@ -1,0 +1,328 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem;
+    letter-spacing: 0.3rem;
+    display: inline-block;
+}
+.button{
+    display: inline-block;
+}
+.button:hover{
+    color: blue;
+}
+.bg-img{
+ background-image: url("img/bg-masthead.jpg");
+ height: 32rem;
+}
+.content{
+color: rgba(7, 7, 7, 0.87);
+font-size: 2rem;
+font-weight: bolder;
+padding-top:8rem;
+padding-bottom: 1rem;
+text-align:center;
+}
+.form-group{
+    padding: 1rem;
+    text-align: center;
+}
+.form-group #emailHelp{
+    text-align: center;
+}
+.form-group .form-control{
+    height: 100%;
+    width: 30%;
+    margin: auto;
+}
+#exampleInputEmail1::placeholder{
+    color:#212529;
+    opacity: 1;
+}
+.row{
+    color: gray;
+    opacity: 0.8;
+}
+.row .col{
+    max-width: 50%;
+    height: auto;
+    margin-left: auto;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+.container p{
+    font-size: 1.2rem; 
+    line-height: 1.2;
+    font-weight: 500; 
+    word-spacing: 0.5rem; 
+    color: black;
+}
+.col .container .main-content-1{
+    color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva;
+    font-weight:600;
+    line-height: 1.2;
+    font-size:1.5rem;
+}
+.iphone-img{
+    background-color: gray;
+    background-image: url("img/bg-showcase-1.jpg");
+    min-height:28rem;
+    background-size: cover;
+    width: 45%;
+    min-width: 50%;
+    float: right;
+}
+.container-fluid .bg-1-content{
+    width:40%;
+    min-width: 20%;
+    height: 20rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-top: 10rem;
+    padding-bottom: 18rem;
+}
+.desktop-img{
+    background-image: url("img/bg-showcase-2.jpg");
+    min-height: 28rem;
+    width: 50%;
+    min-width: 30%;
+    float: left;
+}
+.container-fluid .bg-2-content{
+    display: inline-block;
+    width:40%;
+    min-width: 20%;
+    height: 20rem;
+    text-align: center;
+    padding: 2rem;
+    margin-left: 3rem;
+    padding-left: 3rem;
+    padding-top: 8rem;
+    padding-bottom:20rem;
+}
+.desktop-2-img{
+    background-image: url("img/bg-showcase-3.jpg");
+    min-height:28rem;
+    background-size: cover;
+    width: 45%;
+    min-width: 50%;
+    float: right;
+}
+.container-fluid .bg-3-content{
+    width:40%;
+    min-width: 20%;
+    height: 20rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-top: 10rem;
+    padding-bottom: 18rem;
+}
+.container-2{
+    background-image: linear-gradient(to top, #8360c3, #2ebf91);
+    min-height: 18rem;
+    min-width: 100%;
+    margin-top: 3rem;
+}
+.container-2 h1{
+    text-align:center; width: 100%; font-size: 1.8rem;padding-top: 4rem;font-weight:bold; word-spacing: 0.1rem; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:black; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color:black;
+}
+.footer{
+    margin: 1rem;
+}
+.footer-content{
+    color: gray; margin-top: -1rem; font-size: 0.9rem; padding-top: 0.5rem;
+}
+a{
+    color: rgb(1, 1, 116);
+}
+
+
+@media screen and (max-width:680px){
+    *{
+        overflow-x: hidden;
+    }
+    h1{
+        overflow-y: hidden;
+    }
+    .form-group .form-control{
+        width: 70%;
+    }
+    .container .resp{
+        width: 3rem;
+    }
+    .container .stack{
+        width: 3rem;
+    }
+    .container .web-pg{
+        width: 3rem;
+    }
+    .content{
+    font-size: 1.5rem;
+    }
+    .col .container h2{
+        font-size: 0.5rem;
+    }
+    .container .resp-content{
+        text-align: left;
+        font-size: 0.8rem;
+        overflow-y: hidden ;
+    }
+    .container .stack-content{
+        text-align: left;
+        font-size: 0.8rem;
+        overflow-y: hidden ;
+    }
+    .container .web-pg-content{
+        text-align: left;
+        font-size: 0.8rem;
+        overflow-y: hidden ;
+    }
+
+    .iphone-img{
+        background-color: gray;
+        background-image: url("img/bg-showcase-1.jpg");
+        min-height:25rem;
+        background-size: cover;
+        min-width:30rem;
+    }
+    .container-fluid .bg-1-content {
+     overflow-y: hidden;
+     width:100%;
+     height: 20rem;
+     text-align: left;
+     padding-top: 8rem;
+     padding-bottom: 15rem;
+    }
+    .desktop-img{
+        background-image: url("img/bg-showcase-2.jpg");
+        min-height: 25rem;
+        width: 30rem;
+    }
+    .container-fluid .bg-2-content h1{
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .container-fluid .bg-2-content{
+    text-align: left;
+     overflow-y: hidden;
+     width:100%;
+     height: 20rem;
+     position: relative;
+     right: 3.5rem;
+     padding-top: 5rem;
+     padding-bottom: 18rem;
+    }
+    .desktop-2-img{
+        background-image: url("img/bg-showcase-3.jpg");
+        min-height:25rem;
+        background-size: cover;
+        width:30rem;
+    }
+    .container-fluid .bg-3-content {
+        text-align: left;
+        overflow-y: hidden;
+        width:100%;
+        height: 20rem;
+        padding-top: 8rem;
+        padding-bottom: 18rem;
+       }
+       .container-2 h1{
+           font-size: 1.3rem;
+       }
+       #exampleInputEmail1{
+           width:90%;
+       }
+       .social-media{
+           position: relative;
+           bottom: 0.3rem;
+       }
+       .heading{
+           margin: 0;
+       }
+       .footer-content{
+        color: gray; margin-top: 0rem; font-size: 0.6rem;
+    }
+    .social-media img{
+      width: 20%;
+    }
+}
+@media screen and (min-width:480px) and (max-width:680px) {
+    .container .main-content-1{
+        font-size: 5rem;
+    }
+    .iphone-img{
+        background-color: gray;
+        background-image: url("img/bg-showcase-1.jpg");
+        min-height:28rem;
+        background-size: cover;
+        width: 100%;
+        min-width: 50%;
+    }
+    .desktop-img{
+        background-image: url("img/bg-showcase-2.jpg");
+        min-height: 28rem;
+        width: 100%;
+        min-width: 30%;
+    }
+    .desktop-2-img{
+        background-image: url("img/bg-showcase-3.jpg");
+        min-height:25rem;
+        background-size: cover;
+        width:100%;
+    }
+   .container-fluid .bg-1-content{
+        padding-top: 2rem;
+        padding-left: 2.1rem;
+        font-size: 1.5rem;
+    }
+    .bg-2-content{
+        font-size: 1.5rem;
+    }
+    .bg-3-content{
+        font-size: 1.5rem;
+    }
+    .footer-content{
+        color: gray; margin-top: -1rem; font-size: 0.9rem; padding-top: 0.5rem;
+    }  
+}
+@media screen and (max-width:414px) {
+    .col .container{
+        width: 140%;
+    }
+    .col .container .main-content-1{
+        width: 100%;
+        font-size: 0.6rem;
+    }
+    .col .container .resp-content{
+        font-size: 0.8rem;
+    }
+    .col .container .stack-content{
+        font-size: 0.8rem;
+    }
+    .col .container .web-pg-content{
+        font-size: 0.8rem;
+    }
+
+}
+@media screen and (max-width:524px) {
+    .col .container .main-content-1{
+        font-size: 0.5rem;
+    }
+    .col .container .resp-content{
+        font-size: 0.6rem;
+    }
+    .col .container .stack-content{
+        font-size: 0.6rem;
+    }
+    .col .container .web-pg-content{
+        font-size: 0.6rem;
+
+    }
+}
